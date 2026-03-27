@@ -4,7 +4,7 @@ backend:
   branch: main
   base_url: https://portfolio-cms-gateway.hasan-awata.workers.dev 
 
-local_backend: flase # when set to true, it allows testing the CMS locally
+local_backend: false # when set to true, it allows testing the CMS locally
 
 media_folder: "public/images"
 public_folder: "/images"
