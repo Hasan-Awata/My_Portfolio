@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: Hasan-Awata/My_Portfolio 
+  repo: "Hasan-Awata/My_Portfolio" 
   branch: main
   base_url: https://portfolio-cms-gateway.hasanawata.workers.dev 
 
