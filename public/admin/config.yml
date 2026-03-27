@@ -1,7 +1,8 @@
 backend:
   name: github
-  repo: https://github.com/Hasan-Awata/My_Portfolio.git 
+  repo: Hasan-Awata/My_Portfolio 
   branch: main
+  base_url: https://portfolio-cms-gateway.hasan-awata.workers.dev 
 
 local_backend: flase # when set to true, it allows testing the CMS locally
 
