@@ -1,0 +1,28 @@
+backend:
+  name: github
+  repo: https://github.com/Hasan-Awata/My_Portfolio.git 
+  branch: main
+
+local_backend: flase # when set to true, it allows testing the CMS locally
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "portfolio_data"
+    label: "Portfolio Content"
+    files:
+      - label: "Projects List"
+        name: "projects"
+        file: "public/data/projects.json"
+        description: "Add or edit your backend projects here."
+        fields:
+          - name: "projects"
+            label: "Your Projects"
+            widget: "list"
+            fields:
+              - { label: "Project Title", name: "title", widget: "string" }
+              - { label: "GitHub Repo Link", name: "repo_link", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Engineering Highlights", name: "highlights", widget: "list", field: { label: "Point", name: "point", widget: "string" } }
+              - { label: "Tools/Tech Used", name: "tools", widget: "list", field: { label: "Tool Name", name: "tool", widget: "string" } }

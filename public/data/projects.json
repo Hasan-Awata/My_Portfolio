@@ -1,0 +1,38 @@
+{
+  "projects": [
+    {
+      "title": "Islamic Group Manager Telegram Bot",
+      "repo_link": "https://github.com/Hasan-Awata/Islamic-Group-telegram-bot",
+      "description": "A robust, asynchronous Telegram bot designed to manage and track group Quran readings (Khetma)[cite: 14, 15]. Built with Python and PostgreSQL, this bot features real-time inline keyboard updates, Arabic language pattern matching, and a clean, event-driven backend architecture[cite: 14, 21].",
+      "highlights": [
+        "Concurrency Safety: Prevented race conditions (like two users reserving the same chapter at the exact same millisecond) using strict database-level constraints[cite: 26].",
+        "Domain-Driven Design: Engineered custom domain exceptions (e.g., ChapterNotOwnedError, ChapterFinishedError) ensuring graceful UI error handling without app crashes[cite: 30].",
+        "Efficient Database I/O: Implemented bulk SQL updates and prevented the N+1 query problem to ensure the bot remains fast and memory-efficient even in large groups[cite: 31].",
+        "Advanced Parsing: Engineered robust Arabic pattern matching to extract numbers seamlessly from natural user text regardless of format (e.g., '21', 'الحادي والعشرون', '٢١')[cite: 24]."
+      ],
+      "tools": [
+        "Python 3.x",
+        "python-telegram-bot",
+        "PostgreSQL",
+        "psycopg2",
+        "Repository Pattern"
+      ]
+    },
+    {
+      "title": "Enterprise Task Management API",
+      "repo_link": "https://github.com/your-username/task-api",
+      "description": "A secure, multi-layered RESTful API built with ASP.NET Core and Entity Framework Core. Features comprehensive JWT authentication and a robust Domain/Application/Infrastructure architectural split.",
+      "highlights": [
+        "Global Exception Middleware: Eliminated scattered try-catch blocks by implementing a centralized middleware pipeline.",
+        "Automated Formatting: Intercepts all unhandled errors and domain rule violations, automatically formatting them into standardized RFC 7807 problem details for the client."
+      ],
+      "tools": [
+        "C#",
+        "ASP.NET Core",
+        "SQL Server",
+        "Entity Framework Core",
+        "JWT Auth"
+      ]
+    }
+  ]
+}
