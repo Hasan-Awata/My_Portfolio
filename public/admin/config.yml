@@ -2,7 +2,7 @@ backend:
   name: github
   repo: Hasan-Awata/My_Portfolio 
   branch: main
-  base_url: https://portfolio-cms-gateway.hasan-awata.workers.dev 
+  base_url: https://portfolio-cms-gateway.hasanawata.workers.dev 
 
 local_backend: false # when set to true, it allows testing the CMS locally
 
